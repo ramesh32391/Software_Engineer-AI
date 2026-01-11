@@ -18,7 +18,7 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            © {currentYear} Ramesh Polisetti. All rights reserved.
+            © {currentYear} Ramesh Naidu. All rights reserved.
           </motion.p>
 
           <motion.div
@@ -40,7 +40,7 @@ export default function Footer() {
             </motion.a>
 
             <motion.a
-              href="https://github.com/rameshpolisetti"
+              href="https://github.com/ramesh32391"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-neon-pink hover:bg-neon-pink/10 rounded-lg transition-colors"
@@ -51,7 +51,7 @@ export default function Footer() {
             </motion.a>
 
             <motion.a
-              href="mailto:rameshnaidux@gmail.com"
+              href="mailto:rameshn@myjobemails.com"
               className="p-2 text-neon-green hover:bg-neon-green/10 rounded-lg transition-colors"
               whileHover={{ scale: 1.1, rotate: 5 }}
               whileTap={{ scale: 0.9 }}

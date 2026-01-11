@@ -72,7 +72,7 @@ export default function Contact() {
               
               <div className="space-y-4">
                 <motion.a
-                  href="mailto:rameshnaidux@gmail.com"
+                  href="mailto:rameshn@myjobemails.com"
                   className="flex items-center gap-4 p-4 bg-dark-card/50 rounded-lg hover:bg-dark-card transition-colors group"
                   whileHover={{ x: 5 }}
                 >
@@ -81,7 +81,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Email</p>
-                    <p className="text-white">rameshnaidux@gmail.com</p>
+                    <p className="text-white">rameshn@myjobemails.com</p>
                   </div>
                 </motion.a>
 
@@ -115,7 +115,7 @@ export default function Contact() {
                   </motion.a>
 
                   <motion.a
-                    href="https://github.com/rameshpolisetti"
+                    href="https://github.com/ramesh32391"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-dark-card/50 rounded-lg hover:bg-neon-pink/10 border border-neon-pink/30 hover:border-neon-pink/60 transition-colors"

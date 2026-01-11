@@ -36,10 +36,10 @@ export default function Education() {
             </div>
             <div className="ml-16">
               <h4 className="text-lg font-medium text-neon-cyan mb-1">
-                MS Computer Science
+                Master of Science in Computer Science
               </h4>
               <p className="text-gray-300 mb-2">Southern Arkansas University</p>
-              <p className="text-sm text-gray-400">2023 – 2025</p>
+              <p className="text-sm text-gray-400">Aug 2023 – May 2025</p>
             </div>
           </motion.div>
 
@@ -68,7 +68,7 @@ export default function Education() {
                 whileHover={{ x: 5 }}
               >
                 <p className="text-sm font-medium text-neon-pink">Infosys</p>
-                <p className="text-sm text-gray-300">Power Programmer Virtual Experience Program</p>
+                <p className="text-sm text-gray-300">Power Programmer</p>
               </motion.a>
 
               <motion.a
@@ -90,7 +90,7 @@ export default function Education() {
                 whileHover={{ x: 5 }}
               >
                 <p className="text-sm font-medium text-neon-pink">Cognizant</p>
-                <p className="text-sm text-gray-300">Artificial Intelligence Job Simulation</p>
+                <p className="text-sm text-gray-300">AI Job Simulation</p>
               </motion.a>
 
               <motion.a
@@ -101,7 +101,7 @@ export default function Education() {
                 whileHover={{ x: 5 }}
               >
                 <p className="text-sm font-medium text-neon-pink">IBM</p>
-                <p className="text-sm text-gray-300">SQL and Relational Database</p>
+                <p className="text-sm text-gray-300">SQL & Relational Database</p>
               </motion.a>
             </div>
           </motion.div>

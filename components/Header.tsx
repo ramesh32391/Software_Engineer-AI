@@ -34,8 +34,8 @@ export default function Header() {
       animate={{ y: 0 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-dark-card/80 backdrop-blur-md border-b border-neon-cyan/20"
-          : "bg-transparent"
+          ? "bg-dark-card/90 backdrop-blur-md border-b border-neon-cyan/30"
+          : "bg-dark-card/80 backdrop-blur-md border-b border-neon-cyan/20"
       }`}
     >
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -49,16 +49,16 @@ export default function Header() {
         </motion.a>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-3">
           {navItems.map((item) => (
             <motion.a
               key={item.name}
               href={item.href}
-              className="text-sm font-medium hover:text-neon-cyan transition-colors relative group"
-              whileHover={{ y: -2 }}
+              className="px-4 py-2 text-sm font-medium text-gray-300 hover:text-neon-cyan border border-neon-cyan/20 hover:border-neon-cyan/50 rounded-lg transition-all duration-300 relative group bg-dark-card/50 hover:bg-dark-card/70"
+              whileHover={{ y: -2, scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
             >
               {item.name}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-neon-cyan group-hover:w-full transition-all duration-300" />
             </motion.a>
           ))}
           <motion.button
@@ -111,14 +111,15 @@ export default function Header() {
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden bg-dark-card border-t border-neon-cyan/20"
           >
-            <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
+            <div className="container mx-auto px-4 py-4 flex flex-col gap-3">
               {navItems.map((item) => (
                 <motion.a
                   key={item.name}
                   href={item.href}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="text-sm font-medium hover:text-neon-cyan transition-colors py-2"
-                  whileHover={{ x: 10 }}
+                  className="px-4 py-2 text-sm font-medium text-gray-300 hover:text-neon-cyan border border-neon-cyan/20 hover:border-neon-cyan/50 rounded-lg transition-all duration-300 bg-dark-card/50 hover:bg-dark-card/70"
+                  whileHover={{ x: 5 }}
+                  whileTap={{ scale: 0.95 }}
                 >
                   {item.name}
                 </motion.a>

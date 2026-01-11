@@ -22,8 +22,11 @@ export default function Hero() {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+      {/* Generative AI Background */}
+      <div className="ai-background"></div>
+      
       {/* Animated Background Elements */}
-      <div className="absolute inset-0 overflow-hidden">
+      <div className="absolute inset-0 overflow-hidden z-[1]">
         <motion.div
           className="absolute top-20 left-10 w-72 h-72 bg-neon-cyan/10 rounded-full blur-3xl"
           animate={{
@@ -66,7 +69,7 @@ export default function Hero() {
       </div>
 
       <motion.div
-        className="container mx-auto px-4 relative z-10"
+        className="container mx-auto px-4 relative z-[2]"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
@@ -76,14 +79,14 @@ export default function Hero() {
             className="text-5xl md:text-7xl font-bold mb-6 gradient-text"
             variants={itemVariants}
           >
-            Ramesh Polisetti
+            Ramesh Naidu
           </motion.h1>
 
           <motion.p
             className="text-xl md:text-2xl text-gray-300 mb-4 font-light"
             variants={itemVariants}
           >
-            AI-Driven Software Engineer
+            AI-Driven Senior Software Engineer
           </motion.p>
 
           <motion.p
@@ -97,7 +100,7 @@ export default function Hero() {
             className="text-base md:text-lg text-gray-400 mb-12 flex items-center justify-center gap-2"
             variants={itemVariants}
           >
-            <span>📍</span> Austin, Texas
+            <span>📍</span> Austin, TX
           </motion.p>
 
           <motion.div
@@ -105,10 +108,10 @@ export default function Hero() {
             variants={itemVariants}
           >
             <motion.a
-              href="/Ramesh_Polisetti_Resume.pdf"
+              href="/Ramesh_Naidu_Resume.pdf"
               download
               className="px-4 sm:px-6 py-2.5 sm:py-3 bg-neon-cyan text-dark-bg font-semibold rounded-lg flex items-center gap-2 hover:bg-neon-cyan/80 transition-colors shadow-lg shadow-neon-cyan/50 text-sm sm:text-base"
-              whileHover={{ scale: 1.05, boxShadow: "0 0 30px rgba(0, 240, 255, 0.5)" }}
+              whileHover={{ scale: 1.05, boxShadow: "0 0 30px rgba(0, 184, 255, 0.5)" }}
               whileTap={{ scale: 0.95 }}
             >
               <Download className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -121,7 +124,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 sm:px-6 py-2.5 sm:py-3 bg-dark-card border border-neon-cyan/30 text-neon-cyan font-semibold rounded-lg flex items-center gap-2 hover:bg-neon-cyan/10 transition-colors text-sm sm:text-base"
-              whileHover={{ scale: 1.05, borderColor: "rgba(0, 240, 255, 0.6)" }}
+              whileHover={{ scale: 1.05, borderColor: "rgba(0, 184, 255, 0.6)" }}
               whileTap={{ scale: 0.95 }}
             >
               <FaLinkedin className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -129,7 +132,7 @@ export default function Hero() {
             </motion.a>
 
             <motion.a
-              href="https://github.com/rameshpolisetti"
+              href="https://github.com/ramesh32391"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 sm:px-6 py-2.5 sm:py-3 bg-dark-card border border-neon-pink/30 text-neon-pink font-semibold rounded-lg flex items-center gap-2 hover:bg-neon-pink/10 transition-colors text-sm sm:text-base"

@@ -6,17 +6,17 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ramesh Polisetti | AI-Driven Software Engineer",
-  description: "AI-Driven Software Engineer specializing in LLMs, ML Engineering, Data Engineering, and Cloud & MLOps. Building intelligent systems at Adobe.",
-  keywords: ["AI Engineer", "Machine Learning", "LLMs", "MLOps", "Data Engineering", "Software Engineer", "Ramesh Polisetti", "Adobe", "RAG", "Vector Databases"],
-  authors: [{ name: "Ramesh Polisetti" }],
-  creator: "Ramesh Polisetti",
-  publisher: "Ramesh Polisetti",
+  title: "Ramesh Naidu | AI-Driven Senior Software Engineer",
+  description: "AI-Driven Senior Software Engineer with 5+ years of experience specializing in LLMs, ML Engineering, Data Engineering, and Cloud & MLOps. Building intelligent systems at Adobe.",
+  keywords: ["AI Engineer", "Machine Learning", "LLMs", "MLOps", "Data Engineering", "Software Engineer", "Ramesh Naidu", "Adobe", "RAG", "Vector Databases"],
+  authors: [{ name: "Ramesh Naidu" }],
+  creator: "Ramesh Naidu",
+  publisher: "Ramesh Naidu",
   openGraph: {
-    title: "Ramesh Polisetti | AI-Driven Software Engineer",
-    description: "AI-Driven Software Engineer specializing in LLMs, ML Engineering, Data Engineering, and Cloud & MLOps. Building intelligent systems at Adobe.",
+    title: "Ramesh Naidu | AI-Driven Senior Software Engineer",
+    description: "AI-Driven Senior Software Engineer with 5+ years of experience specializing in LLMs, ML Engineering, Data Engineering, and Cloud & MLOps. Building intelligent systems at Adobe.",
     url: "https://rameshpolisetti.com",
-    siteName: "Ramesh Polisetti Portfolio",
+    siteName: "Ramesh Naidu Portfolio",
     locale: "en_US",
     type: "website",
     images: [
@@ -24,14 +24,14 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Ramesh Polisetti - AI-Driven Software Engineer",
+        alt: "Ramesh Naidu - AI-Driven Senior Software Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ramesh Polisetti | AI-Driven Software Engineer",
-    description: "AI-Driven Software Engineer specializing in LLMs, ML Engineering, Data Engineering, and Cloud & MLOps.",
+    title: "Ramesh Naidu | AI-Driven Senior Software Engineer",
+    description: "AI-Driven Senior Software Engineer with 5+ years of experience specializing in LLMs, ML Engineering, Data Engineering, and Cloud & MLOps.",
     images: ["/og-image.png"],
   },
   robots: {

@@ -6,24 +6,24 @@ import { Brain, Cloud, Database, Code } from "lucide-react";
 export default function About() {
   const highlights = [
     {
-      icon: Brain,
-      title: "AI Engineering",
-      description: "Specialized in LLMs, RAG systems, and intelligent agent workflows",
-    },
-    {
-      icon: Cloud,
-      title: "MLOps & Cloud",
-      description: "Expert in deploying scalable ML pipelines on AWS with CI/CD",
+      icon: Code,
+      title: "API & Backend Engineering",
+      description: "Building scalable APIs with Flask/FastAPI, SQL, and production-ready web systems",
     },
     {
       icon: Database,
-      title: "Data Engineering",
-      description: "Building robust ETL pipelines and data warehousing solutions",
+      title: "Data & ETL",
+      description: "Designing robust ETL workflows with Airflow, Spark, and data warehousing solutions",
     },
     {
-      icon: Code,
-      title: "Backend APIs",
-      description: "Creating high-performance microservices with FastAPI and Flask",
+      icon: Brain,
+      title: "ML/NLP",
+      description: "Integrating ML models, NLP solutions, and predictive analytics with scikit-learn, TF/Keras, spaCy/NLTK",
+    },
+    {
+      icon: Cloud,
+      title: "Cloud/MLOps",
+      description: "Deploying scalable ML pipelines on AWS with Docker, K8s, and CI/CD automation",
     },
   ];
 
@@ -48,21 +48,21 @@ export default function About() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <p className="text-lg text-gray-300 leading-relaxed mb-6">
-            I'm a passionate AI-Driven Software Engineer with a strong foundation in machine learning,
-            large language models, and cloud infrastructure. Currently building cutting-edge AI solutions
-            at Adobe, I specialize in developing end-to-end ML pipelines, integrating LLMs with RAG systems,
-            and deploying scalable agentic workflows for real-time inference.
+            I'm an AI-driven Senior Software Engineer with 5+ years of experience building production-ready web systems,
+            scalable APIs, and ETL workflows. I specialize in integrating machine learning, NLP, and predictive models
+            into platforms that drive real business value. My work focuses on creating robust systems using Flask, SQL,
+            and modern ML integrations that are both powerful and maintainable.
           </p>
           <p className="text-lg text-gray-300 leading-relaxed mb-6">
-            My expertise spans across AI engineering, ML pipeline development, cloud deployments, and
-            MLOps practices. I have hands-on experience with vector databases, embeddings, model optimization
-            techniques like quantization and pruning, and building production-ready microservices. I'm
-            passionate about converting ML prototypes into robust, observable, and scalable production systems.
+            I excel at developing scalable APIs and ETL workflows that handle complex data transformations efficiently.
+            My expertise includes building ML and NLP solutions that enhance platform capabilities, from predictive analytics
+            to intelligent automation. I'm passionate about implementing CI/CD automation, ensuring secure deployments,
+            and leveraging analytics and automation to deliver measurable improvements.
           </p>
           <p className="text-lg text-gray-300 leading-relaxed">
-            With a background in data engineering and backend development, I bring a holistic approach to
-            building intelligent systems that are not just accurate, but also reliable, maintainable, and
-            performant at scale.
+            With a strong focus on business intelligence and analytics, I design systems that not only perform well
+            technically but also provide actionable insights. I bring a comprehensive approach to building intelligent
+            platforms that combine robust engineering practices with cutting-edge ML capabilities.
           </p>
         </motion.div>
 

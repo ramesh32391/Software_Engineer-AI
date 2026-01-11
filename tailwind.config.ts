@@ -11,16 +11,16 @@ const config: Config = {
     extend: {
       colors: {
         neon: {
-          cyan: "#00f0ff",
-          pink: "#ff00ff",
-          green: "#00ff88",
-          blue: "#0080ff",
-          purple: "#a855f7",
+          cyan: "#00b8ff",
+          pink: "#00b8ff",
+          green: "#00d4ff",
+          blue: "#3b82f6",
+          purple: "#00b8ff",
         },
         dark: {
-          bg: "#0a0a0f",
-          card: "#111118",
-          border: "#1a1a24",
+          bg: "#0d1117",
+          card: "#161b22",
+          border: "#21262d",
         },
       },
       animation: {
@@ -34,8 +34,8 @@ const config: Config = {
           "50%": { transform: "translateY(-20px)" },
         },
         glow: {
-          "0%": { boxShadow: "0 0 5px #00f0ff, 0 0 10px #00f0ff, 0 0 15px #00f0ff" },
-          "100%": { boxShadow: "0 0 10px #00f0ff, 0 0 20px #00f0ff, 0 0 30px #00f0ff" },
+          "0%": { boxShadow: "0 0 5px #00b8ff, 0 0 10px #00b8ff, 0 0 15px #00b8ff" },
+          "100%": { boxShadow: "0 0 10px #00b8ff, 0 0 20px #00b8ff, 0 0 30px #00b8ff" },
         },
         gradient: {
           "0%": { backgroundPosition: "0% 50%" },
